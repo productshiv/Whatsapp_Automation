@@ -8,7 +8,7 @@ from firebase import firebase
 import time
 import json
 
-firebase = firebase.FirebaseApplication('https://test-2f39d.firebaseio.com/', None)  
+firebase = firebase.FirebaseApplication('enter your firebase link here', None)  
 data =  { 
     'Message': 'mess',  
           'Phone NO':   '7587780420' 
