@@ -61,8 +61,7 @@ def sender(driver, d):
     driver.switch_to.window(driver.window_handles[1])
     driver.get("https://web.whatsapp.com")
 
-#main link https://meristreet-7f81b.firebaseio.com/
-link = "https://test-2f39d.firebaseio.com/"
+link = #enter your test firebase db link here
 
 firebase = firebase.FirebaseApplication(link, None)  
 
